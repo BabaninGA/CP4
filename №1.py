@@ -1,0 +1,11 @@
+A="Grigory"
+B="Babanin"
+C="2003"
+print(A+"_"+B+"_"+C)
+D=A
+A=B
+B=D
+C=int(C)
+C=C+60
+C=str(C)
+print(A+"_"+B+"_"+C)
